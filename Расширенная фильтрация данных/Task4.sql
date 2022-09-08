@@ -8,7 +8,7 @@ FROM Vendors
 ORDER BY vend_name
 WHERE vend_country = 'USA' AND vend_state = 'CA';
 
---Првильное решение
+--Правильное решение
 
 SELECT vend_name
 FROM Vendors
