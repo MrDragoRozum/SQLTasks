@@ -11,4 +11,4 @@ WHERE cust_id IN(
     WHERE order_num IN(
         SELECT order_num
         FROM OrderItems
-        prod_id = 'BR01'));
+        WHERE prod_id = 'BR01'));
